@@ -1,4 +1,5 @@
 <h1>Sign up and Sign In</h1>
+<h3><a href="https://carlos-aniel.github.io/sign-up-and-sign-in/" target="_blank">Como está o projeto agora?</a></h3>
 
 ![sign-up-and-sign-in](https://user-images.githubusercontent.com/89603527/144051214-2a56f2e7-ecbb-476f-b474-1f4736d3d69d.PNG)
 
@@ -19,6 +20,6 @@
 <h2>O porquê desse projeto?</h2>
 <h3>Está sendo feito esse projeto com intuito de me desenvolver e aprender na parte do front-end e UI e mostrar o meu desenvolvimento, mesmo não estando perfeito e tendo melhorar sempre.</h3>
 <h3>E devido ao Daily UI onde há desafios de criações de tipos de telas(como essa, tela de pagamento e afins) que foi recomendado por um amigo o Carlos Miguel(Um dev Full Stack, onde cria conteúdo no seu instagra, mas conhecido por <a href="https://www.instagram.com/solrachix" target="_blank">Solrachix</a>. Dê uma conferida<3</h3>
-<h3> Deixarei o link do layout que fiz no figma, só duplicar, onde quiser melhora-lô e fazer do seu jeito. <h3>
-<a><a href="" target="_blank"><strong>Layout no figma</strong></a></a>
+<h3> Deixarei o link do layout que fiz no figma, só duplicar, onde quiser melhora-lô e fazer do seu jeito. <a><a <a href="https://www.figma.com/file/R2MydHPwUNUvKerST4F9zG/Form-Sign-up-Sign-in-Copy" target="_blank"><strong>Layout no figma</strong></a></a><h3>
+
 <h3> Se curtiu deixa uma estrela, que ajuda no alcance de mais pessoas verem e se interessarem.</h3>
