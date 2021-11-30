@@ -10,7 +10,7 @@
 <ul>
   <li>A estrutura e construção de form de cadastro e log in</li>
   <li>Aprender e praticar HTML,CSS,JS</li>
-  <li>Semantica HTML</li>
+  <li>Semantica HTML</li>gi
   <li>Animação em CSS</li>
   <li>Funcionalidade em JS</li>
   <li>Desenvolver-se na parte de UI</li>
