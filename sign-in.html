@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=Staatliches&display=swap"
       rel="stylesheet"
@@ -15,14 +15,16 @@
     <main>
       <div class="container">
         <h1>ReadComicsOnline</h1>
-        <form class="form" action="">
+        <form class="form" action="" method="post">
           <label for="username">Username</label>
-          <input type="text" id="username" name="username" onclick="test" />
+          <input type="text" id="username" name="username" onclick="checkUserName" required>
           <label for="password">Password</label>
-          <input type="text" id="password" name="password" />
+          <input type="password" id="password" required>
         </form>
+        <div class="check">
+        </div>
         <a href="#" style="color: #ffff;">Forgot something</a>
-        <button>Sign in</button>
+        <button type="submit">Sign in</button>
         <p>Don’t have an account?<a href="index.html">Sign up</a></p>
         <a href="#" id="terms">Terms</a>
       </div>

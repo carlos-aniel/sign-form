@@ -1,20 +1,20 @@
-<h1>Sign up and Sign In</h1>
-<h3><a href="https://carlos-aniel.github.io/sign-up-and-sign-in/" target="_blank">Como está o projeto agora?</a></h3>
+<h1>Sign-form</h1>
+<h3><a href="https://carlos-aniel.github.io/sign-form/" target="_blank">Como está o projeto agora?</a></h3>
 
 ![sign-up-and-sign-in](https://user-images.githubusercontent.com/89603527/144051214-2a56f2e7-ecbb-476f-b474-1f4736d3d69d.PNG)
 
 <h2>:eye_speech_bubble: Status do projeto</h2>
 <h3><b>Em desenvolvimento:stopwatch:</b></h3>
 <h2><b>Qual é o Objetivo desse projeto?</b></h2>
-<h3>Aprender e praticar com os estudo atuais como HTML,CSS, JS</h3>
+<h3>Aprender e praticar com os estudo atuais como HTML,CSS, JS e UI</h3>
 <h3>E vendo aspectos como:</h3>
 <ul>
   <li>A estrutura e construção de form de cadastro e log in</li>
-  <li>Aprender e praticar HTML,CSS,JS</li>
-  <li>Semantica HTML</li>gi
+  <li>Aprender na praticar HTML,CSS,JS</li>
+  <li>Semantica HTML</li>
   <li>Animação em CSS</li>
   <li>Funcionalidade em JS</li>
-  <li>Desenvolver-se na parte de UI</li>
+  <li>Se Desenvolvendo e praticando na parte de UI design de form</li>
 </ul>
 <h2>Sobre</h2>
 <h2>O porquê desse projeto?</h2>

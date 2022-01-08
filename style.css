@@ -25,6 +25,7 @@ div.container {
   display: grid;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
   width: 360px;
   height: 640px;
   background: #202024;
@@ -33,10 +34,17 @@ div.container {
 h1 {
   font-family: Staatliches, sans-serif;
   width: 283px;
-  height: 38;
+  height: 38px;
   font-size: 42px;
   line-height: 52px;
   margin: 60px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 /*What's inside it is label and input*/
 form {
@@ -53,26 +61,49 @@ label {
   margin-left: 8px;
   padding-top: 10px;
   margin-bottom: -6px;
+
+  /**/
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
-input {
+#username, #email, #password  {
+  color: black;
   width: 300px;
   height: 40px;
   margin-top: 10px;
-  border: 0;
+  border: 3px solid #102009;
   border-radius: 3px;
   opacity: 80%;
-  content: 25px;
   outline: none;
 }
-input:focus {
-    border: 3px solid #000000;
+.sucess {
+  border: 3px solid green;
+}
+.error {
+  color: red;
+  border: 3px solid red;
+}
+ div #check {
+  font-size: 15px; 
+  font-weight: bold; 
+  line-height: 18px;
+  position: relative;
+  top: 15px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 75px;
 }
 button {
   place-items: center;
   width: 300px;
   height: 48px;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 35px;
   border-radius: 3px;
   border: none;
   font-family: Barlow Semi Condensed;
@@ -102,6 +133,13 @@ p {
   font-family: Barlow Semi Condensed;
   font-weight: medium;
   font-size: 14px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 /*It's a link too*/
 #terms {

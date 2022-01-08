@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/form/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=Staatliches&display=swap"
       rel="stylesheet"
@@ -17,18 +17,22 @@
         <h1>ReadComicsOnline</h1>
         <form class="form" action="">
           <label for="username">Username</label>
-          <input type="text" id="username" name="username" onclick="test" />
+          <input type="text" id="username" class="sucess" class="error" onblur="checkUserName()" required />
 
           <label for="email">Email</label>
-          <input type="text" id="email" name="email" />
+          <input type="text" id="email" onblur="checkEmail()" />
 
           <label for="password">Password</label>
-          <input type="text" id="password" name="password" />
+          <input type="password" id="password" onblur="checkPassword()"/>
+
+          <div id="check"></div>
+
+          <button type="submit" value="Submit">Create Account</button>
         </form>
-        <button>Create Account</button>
         <p>Already have an account?<a href="sign-in.html">Sign in</a></p>
         <a href="#" id="terms">Terms</a>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
